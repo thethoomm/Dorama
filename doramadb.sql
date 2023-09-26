@@ -12,5 +12,29 @@ CREATE TABLE users (
 
 SELECT * FROM users;
 
+CREATE TABLE doramas (
+	id_dorama INT PRIMARY KEY AUTO_INCREMENT,
+    nome_dorama VARCHAR(50) NOT NULL
+);
+
+INSERT INTO doramas(nome_dorama) 
+VALUES 
+("Hotel del Luna"),
+("Hwarang"),
+("Sweet home"),
+("Paixão imprevista"),
+("Jardins de meteoro"),
+("Love alarm"),
+("True beautiful"),
+("Tomorrow"),
+("Flower of evil"),
+("Minha vênus"),
+("Garota do século 20"),
+("Well intended love");
+
+SELECT * FROM doramas;
+
+
+
 
 
