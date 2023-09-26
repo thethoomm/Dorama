@@ -25,7 +25,8 @@
     $query = "insert into users (username, password, email)
     values ('$nome', '$senha', '$email')";
 
+  
     $res = mysqli_query($conn, $query);
-    header("Location: http://127.0.0.1:5500/pages/index.html");
+    header("Location: http://localhost:5000/scripts/php/consulta.php");
 
 ?>
